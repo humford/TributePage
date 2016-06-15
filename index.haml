@@ -1,1 +1,46 @@
 
+!!! 5
+%html(lang="en")
+    %head
+        %link{:href => "https://bootswatch.com/journal/bootstrap.min.css", :rel => "stylesheet"}
+        %link{:href => "public/css/jumbotron-narrow.css", :rel => "stylesheet"}
+    %body
+        .container
+            .header.clearfix
+                %nav
+                %h3.text-muted FreeCodeCamp Tribute Page
+
+            .jumbotron
+                %img.img-rounded.img-responsive.img-thumbnail{:src => "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Dirac_3.jpg/220px-Dirac_3.jpg"}
+                %h1 Paul Dirac
+                %p.lead
+                    Paul Adrien Maurice Dirac (8 August 1902 - 20 October 1984) was an English theoretical physicist who made fundamental contributions to the early development of both quantum mechanics and quantum electrodynamics.
+                %p
+                    %a.btn.btn-large.btn-success{:href => "https://en.wikipedia.org/wiki/en/Paul_Dirac", :role => "button"} Read More
+
+            .row
+                .col-lg-6
+                    %h2 His Contributions
+                    %h4 Dirac Equation
+                    %p
+                        %img.img-responsive{:src => "https://upload.wikimedia.org/math/6/7/8/67800fc1b370f237ab73c3b593a2c276.png"}
+                        In particle physics, the Dirac equation is a relativistic wave equation derived by British physicist Paul Dirac in 1928. In its free form, or including electromagnetic interactions, it describes all spin-1⁄2 massive particles such as electrons and quarks, for which parity is a symmetry, and is consistent with both the principles of quantum mechanics and the theory of special relativity, and was the first theory to account fully for special relativity in the context of quantum mechanics. It accounted for the fine details of the hydrogen spectrum in a completely rigorous way.
+                    %h4 Dirac Sea
+                    %p
+                        The Dirac sea is a theoretical model of the vacuum as an infinite sea of particles with negative energy. It was first postulated by the British physicist Paul Dirac in 1930 to explain the anomalous negative-energy quantum states predicted by the Dirac equation for relativistic electrons. The positron, the antimatter counterpart of the electron, was originally conceived of as a hole in the Dirac sea, well before its experimental discovery in 1932.
+
+                .col-lg-6
+                    %h2 His Life
+                    %h4 Religious Views
+                    %p
+                        %em I cannot understand why we idle discussing religion. If we are honest -and scientists have to be- we must admit that religion is a jumble of false assertions, with no basis in reality. The very idea of God is a product of the human imagination. It is quite understandable why primitive people, who were so much more exposed to the overpowering forces of nature than we are today, should have personified these forces in fear and trembling. But nowadays, when we understand so many natural processes, we have no need for such solutions. I can't for the life of me see how the postulate of an Almighty God helps us in any way.
+                    %h4 Honors
+                    %p
+                        Dirac shared the 1933 Nobel Prize for physics with Erwin Schrodinger "for the discovery of new productive forms of atomic theory". Dirac was also awarded the Royal Medal in 1939 and both the Copley Medal and the Max Planck Medal in 1952. He was elected a Fellow of the Royal Society in 1930, an Honorary Fellow of the American Physical Society in 1948, and an Honorary Fellow of the Institute of Physics, London in 1971. He received the inaugural J. Robert Oppenheimer Memorial Prize in 1969. Dirac became a member of the Order of Merit in 1973, having previously turned down a knighthood as he did not want to be addressed by his first name.
+
+            %footer.footer
+                %p
+                    %a{:href => "www.github.com/humford"} &copy; Henry Williams
+
+        %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
+        %script{:src => "public/js/bootstrap.min.js"}
